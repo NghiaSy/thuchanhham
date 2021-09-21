@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [ 0, 5, 4, 5, 10, 15, 54, 20, 54, 12,5];
+    let count = 0;
+    let a = +prompt("Nhap so nguyen bat ky de ktra :");
+    for (let i=0 ; i < arr.length; i++) {
+        if (a == arr[i]) {
+            count++;
+        }
+    }
+    if (count >=0) {
+        document.write(a  + " nam trong mang")
+    }
+    else
+        document.write(a + " khong nam trong mang")
+</script>
+</body>
+</html>
